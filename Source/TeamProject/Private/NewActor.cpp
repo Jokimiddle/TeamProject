@@ -14,10 +14,5 @@ ANewActor::ANewActor()
 void ANewActor::BeginPlay()
 {
 	Super::BeginPlay();
-
-<<<<<<< HEAD
-	UE_LOG(LogTemp, Log, TEXT("is Mine!"));
-=======
 	UE_LOG(LogTemp, Log, TEXT("Written by other@#$%@#$#@#&$"));
->>>>>>> 9cff336e32da1c29f22476ca04e2e10e7616e593
 }
