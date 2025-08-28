@@ -10,18 +10,3 @@ ANewActor::ANewActor()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
-
-// Called when the game starts or when spawned
-void ANewActor::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ANewActor::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
