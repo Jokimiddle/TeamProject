@@ -10,3 +10,10 @@ ANewActor::ANewActor()
 	PrimaryActorTick.bCanEverTick = true;
 
 }
+
+void ANewActor::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UE_LOG(LogTemp, Log, TEXT("Written by other."));
+}
