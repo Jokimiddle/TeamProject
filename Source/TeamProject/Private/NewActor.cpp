@@ -15,5 +15,5 @@ void ANewActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Log, TEXT("Written by other."));
+	UE_LOG(LogTemp, Log, TEXT("is Mine!"));
 }
