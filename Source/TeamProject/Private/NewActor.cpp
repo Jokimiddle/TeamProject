@@ -14,7 +14,7 @@ ANewActor::ANewActor()
 void ANewActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Log, TEXT("hello UE"));
+	UE_LOG(LogTemp, Log, TEXT("i'm jkh"));
 	
 	/* long code */
 }
