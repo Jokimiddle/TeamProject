@@ -15,4 +15,5 @@ void ANewActor::BeginPlay()
 {
 	Super::BeginPlay();
 	UE_LOG(LogTemp, Log, TEXT("i'm KKY"));
+	UE_LOG(LogTemp, Log, TEXT("i'm KKY"));
 }
