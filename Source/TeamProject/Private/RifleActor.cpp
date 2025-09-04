@@ -16,7 +16,7 @@ void ARifleActor::BeginPlay()
 {
 	Super::BeginPlay();
 }
-//
+////
 // Called every frame
 void ARifleActor::Tick(float DeltaTime)
 {
